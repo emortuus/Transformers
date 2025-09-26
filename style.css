@@ -1,0 +1,12 @@
+/* Tło strony - nieruchomy obraz */
+body {
+  background: url("https://th.bing.com/th/id/R.0d268f789356655fa4163a0308967a35?rik=i49P6s31fLxqkQ&pid=ImgRaw&r=0") 
+              no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Efekt hover dla tabeli */
+.table-hover tbody tr:hover td {
+  background-color: rgba(255, 0, 0, 0.4) !important;
+  cursor: pointer;
+}
