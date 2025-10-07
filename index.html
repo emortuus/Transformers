@@ -9,9 +9,10 @@
 </head>
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
     <div class="container">
-      <a class="navbar-brand fw-bold text-danger" href="#">Transformers</a>
+      <a class="navbar-brand fw-bold text-danger" href="#">TRANSFORMERS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
               aria-label="Toggle navigation">
@@ -20,10 +21,10 @@
     </div>
   </nav>
 
-  <div class="p-5 mb-4 bg-dark bg-opacity-75 text-light rounded-3 text-center">
-    <h1 class="display-4">Transformers</h1>
-    <p class="lead">Seria stworzona przez firmy Hasbro i Takara Tomy w latach 80., 
-    która stała się globalnym fenomenem popkultury.</p>
+  <!-- Hero section -->
+  <div class="p-5 mb-4 bg-dark bg-opacity-75 text-light rounded-3 text-center shadow-lg">
+    <h1 class="display-4">TRANSFORMERS</h1>
+    <p class="lead">Seria stworzona przez firmy Hasbro i Takara Tomy w latach 80., która stała się globalnym fenomenem popkultury.</p>
   </div>
 
   <!-- Sekcja o Transformers -->
@@ -56,34 +57,34 @@
     </div>
   </div>
 
-  <!-- Tabela -->
+  <!-- Tabela z Autobotami i Decepticonami -->
   <div class="container mb-5">
-    <div class="p-3 rounded bg-dark bg-opacity-75">
-      <h2 class="text-center text-light mb-4">Autoboty vs Decepticony</h2>
+    <div class="p-3 rounded bg-dark bg-opacity-75 shadow">
+      <h2 class="text-center text-danger mb-4">AUTOBOTY vs DECEPTICONY</h2>
       <div class="table-responsive">
-        <table class="table table-dark table-bordered text-center align-middle table-hover w-100" style="table-layout: fixed;">
+        <table class="table table-dark table-bordered text-center align-middle w-100" style="table-layout: fixed;">
           <thead>
             <tr>
-              <th>Autoboty</th>
-              <th>Decepticony</th>
+              <th class="text-danger">AUTOBOTY</th>
+              <th class="text-danger">DECEPTICONY</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Optimus Prime</td>
-              <td>Megatron</td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#optimusModal">Optimus Prime</button></td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#megatronModal">Megatron</button></td>
             </tr>
             <tr>
-              <td>Bumblebee</td>
-              <td>Starscream</td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#bumblebeeModal">Bumblebee</button></td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#starscreamModal">Starscream</button></td>
             </tr>
             <tr>
-              <td>Ironhide</td>
-              <td>Soundwave</td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#ironhideModal">Ironhide</button></td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#soundwaveModal">Soundwave</button></td>
             </tr>
             <tr>
-              <td>Ratchet</td>
-              <td>Shockwave</td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#ratchetModal">Ratchet</button></td>
+              <td><button class="btn btn-dark w-100 text-light" data-bs-toggle="modal" data-bs-target="#shockwaveModal">Shockwave</button></td>
             </tr>
           </tbody>
         </table>
@@ -91,50 +92,14 @@
     </div>
   </div>
 
-  <!-- Komiksy i seriale -->
+  <!-- Ciekawostki w kartach -->
   <div class="container mb-5">
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="p-3 rounded bg-dark bg-opacity-75 text-light">
-          <h3>Komiksy</h3>
-          <p>
-            Transformers pojawiali się również w wielu seriach komiksowych. 
-            Najbardziej znane to:
-          </p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-dark text-light">The Transformers (Marvel, 1984–1991)</li>
-            <li class="list-group-item bg-dark text-light">Regeneration One</li>
-            <li class="list-group-item bg-dark text-light">Transformers: Lost Light</li>
-            <li class="list-group-item bg-dark text-light">Transformers: IDW Collection</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="p-3 rounded bg-dark bg-opacity-75 text-light">
-          <h3>Seriale animowane</h3>
-          <p>
-            Animowane seriale Transformers bawiły całe pokolenia fanów:
-          </p>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-dark text-light">The Transformers (G1, 1984)</li>
-            <li class="list-group-item bg-dark text-light">Beast Wars (1996)</li>
-            <li class="list-group-item bg-dark text-light">Transformers: Prime (2010)</li>
-            <li class="list-group-item bg-dark text-light">Transformers: Cyberverse (2018)</li>
-            <li class="list-group-item bg-dark text-light">Transformers: War for Cybertron Trilogy (2020)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Ciekawostki -->
-  <div class="container mb-5">
-    <h2 class="text-center text-light bg-dark bg-opacity-75 p-3 rounded">Ciekawostki</h2>
+    <h2 class="text-center text-light bg-dark bg-opacity-75 p-3 rounded mb-4">Ciekawostki</h2>
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card bg-dark bg-opacity-75 text-light shadow h-100">
           <div class="card-body">
-            <h5 class="card-title">Animacje</h5>
+            <h5 class="card-title text-danger">Animacje</h5>
             <p class="card-text">Pierwszy serial animowany Transformers zadebiutował w 1984 roku i szybko zdobył popularność.</p>
           </div>
         </div>
@@ -142,7 +107,7 @@
       <div class="col-md-4">
         <div class="card bg-dark bg-opacity-75 text-light shadow h-100">
           <div class="card-body">
-            <h5 class="card-title">Filmy</h5>
+            <h5 class="card-title text-danger">Filmy</h5>
             <p class="card-text">Seria filmów aktorskich rozpoczęła się w 2007 roku w reżyserii Michaela Baya.</p>
           </div>
         </div>
@@ -150,7 +115,7 @@
       <div class="col-md-4">
         <div class="card bg-dark bg-opacity-75 text-light shadow h-100">
           <div class="card-body">
-            <h5 class="card-title">Zabawki</h5>
+            <h5 class="card-title text-danger">Zabawki</h5>
             <p class="card-text">Transformersy zaczęły jako linia zabawek transformujących robotów w pojazdy i maszyny.</p>
           </div>
         </div>
@@ -158,12 +123,118 @@
     </div>
   </div>
 
-  <!-- Footer z przyciskiem -->
+  <!-- Modale -->
+  <!-- Optimus Prime -->
+  <div class="modal fade" id="optimusModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">OPTIMUS PRIME</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Lider Autobotów, symbol odwagi i sprawiedliwości. Chroni wszystkich przed tyranią Decepticonów.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Megatron -->
+  <div class="modal fade" id="megatronModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">MEGATRON</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Bezwzględny przywódca Decepticonów. Pragnie zapanować nad całym Cybertronem i zniszczyć Autoboty.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bumblebee -->
+  <div class="modal fade" id="bumblebeeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">BUMBLEBEE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Młody, odważny zwiadowca o wielkim sercu. Często podejmuje ryzyko, by ratować przyjaciół.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starscream -->
+  <div class="modal fade" id="starscreamModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">STARSCREAM</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Ambitny, zdradziecki wojownik marzący o przejęciu władzy nad Decepticonami. Mistrz walki powietrznej.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ironhide -->
+  <div class="modal fade" id="ironhideModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">IRONHIDE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Twardy i lojalny weteran bitew. Zawsze gotowy bronić Optimusa i swoich towarzyszy.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Soundwave -->
+  <div class="modal fade" id="soundwaveModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">SOUNDWAVE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Niezawodny szpieg Megatrona, kontrolujący komunikację i podsłuch. Nigdy nie kwestionuje rozkazów.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ratchet -->
+  <div class="modal fade" id="ratchetModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">RATCHET</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Lekarz Autobotów, który ratuje rannych towarzyszy. Choć nie walczy często, jego wiedza jest bezcenna.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shockwave -->
+  <div class="modal fade" id="shockwaveModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">SHOCKWAVE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">Chłodny i analityczny naukowiec Decepticonów. Działa zawsze w imię logiki i postępu technicznego.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer z przyciskiem i moim podpisem -->
   <footer class="bg-dark bg-opacity-75 text-light text-center py-3">
     <p class="mb-2">Projekt - Zuzanna Szymko</p>
     <!-- Przycisk otwierający modal -->
     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#gifModal">
-      Pokaż GIF
+      Gif Transformers
     </button>
   </footer>
 
@@ -177,7 +248,7 @@
         </div>
         <div class="modal-body text-center">
           <img src="https://i.pinimg.com/originals/16/6e/45/166e4576dbeababae160ebc61b1f6aad.gif" 
-               alt="Transformers GIF" class="img-fluid rounded">
+               alt="Transformers" class="img-fluid rounded">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
@@ -185,6 +256,7 @@
       </div>
     </div>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
